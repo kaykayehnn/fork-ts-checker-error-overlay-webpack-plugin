@@ -23,8 +23,9 @@ class ForkTsCheckerErrorOverlayPlugin {
             originalBefore(app, server)
           }
 
+          // Capture the devServer socket
           devSocket = {
-            warnings: warnings => devServer.sockWrite(server.sockets, 'warnings', warnings),
+            warnings: warnings => server.sockWrite(server.sockets, 'warnings', warnings),
             errors: errors => server.sockWrite(server.sockets, 'errors', errors),
           }
         }
