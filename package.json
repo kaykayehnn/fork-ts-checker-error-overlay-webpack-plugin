@@ -11,6 +11,9 @@
   ],
   "author": "Krasimir Nedelchev (https://github.com/kaykayehnn)",
   "license": "MIT",
+  "scripts": {
+    "release": "np"
+  },
   "engines": {
     "node": ">=8"
   },
