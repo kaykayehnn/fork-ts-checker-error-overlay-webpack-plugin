@@ -1,0 +1,26 @@
+{
+  "name": "fork-ts-checker-error-overlay-webpack-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [
+    "typescript",
+    "webpack",
+    "plugin",
+    "error overlay"
+  ],
+  "author": "Krasimir Nedelchev (https://github.com/kaykayehnn)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "react-dev-utils": "^9.0.1"
+  },
+  "peerDependencies": {
+    "fork-ts-checker-webpack-plugin": ">=1"
+  },
+  "devDependencies": {
+    "np": "*"
+  }
+}
