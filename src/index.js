@@ -1,3 +1,4 @@
+// Forked from https://github.com/facebook/create-react-app/blob/eaf0b17/packages/react-dev-utils/WebpackDevServerUtils.js
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter')
 
 const PLUGIN_NAME = 'ForkTsCheckerErrorOverlayPlugin'
