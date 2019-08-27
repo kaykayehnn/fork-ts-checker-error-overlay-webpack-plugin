@@ -14,9 +14,6 @@
   "scripts": {
     "release": "np"
   },
-  "engines": {
-    "node": ">=8"
-  },
   "dependencies": {
     "react-dev-utils": "^9.0.1"
   },
